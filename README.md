@@ -1,3 +1,7 @@
+將html中的base64存為jpeg並將原html含有base64的<img>容器加上一uid，方便取出時，可mapping原jpeg檔，轉回base64回存
+
+因某些原因，以.Net framework 3.5開發
+
 提供兩項功能：
 1.將讀入的html檔，搜出html中的img，轉存為jpeg及無img的html後存檔
 2.將讀入的無img的html，依1.所產生的tag將jpeg轉base64加到html後存檔
